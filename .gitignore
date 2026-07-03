@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.uv-cache/
+
+# Type checkers / linters caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+wandb/
+lightning_logs/
+runs/
+
+# Datasets / data
+data/raw/
+data/processed/
